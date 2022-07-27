@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost/melanin-framework-codeigniter/';
+	public $baseURL = 'http://localhost/melanin-framework-codeigniter-bw/';
 
 	/*
 	|--------------------------------------------------------------------------
