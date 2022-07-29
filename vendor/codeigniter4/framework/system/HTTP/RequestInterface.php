@@ -53,7 +53,7 @@ interface RequestInterface
 	 * @return string
 	 *
 	 */
-	public function getMethod(bool $upper = false): string;
+	public function getMethod(): string;
 
 	//--------------------------------------------------------------------
 
