@@ -87,12 +87,10 @@ class Request extends Message implements MessageInterface, RequestInterface
 	 * @param boolean $upper Whether to return in upper or lower case.
 	 *
 	 * @return string
-	 *
-	 * @deprecated The $upper functionality will be removed and this will revert to its PSR-7 equivalent
 	 */
-	public function getMethod(bool $upper = false): string
+	public function getMethod(): string
 	{
-		return ($upper) ? strtoupper($this->method) : strtolower($this->method);
+		return strtolower($this->method);
 	}
 
 	/**
